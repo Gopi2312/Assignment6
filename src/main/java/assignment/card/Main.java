@@ -16,6 +16,7 @@ public class Main
         TestCard tc1 = (TestCard)tc.clo();
         
         Long valnum = 97889122l;
+        System.out.println(tc1.test(valnum));
         boolean x = tc1.test(valnum);
         if(x==true)
         {
@@ -23,7 +24,7 @@ public class Main
         }
         else
         {
-            System.out.println("Invalid");
+            System.out.println("invalid");
         }
     }
 
