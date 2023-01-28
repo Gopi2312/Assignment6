@@ -17,7 +17,7 @@ public class Main
         
         Long valnum = 97889122l;
         boolean x = tc1.test(valnum);
-        if(x!=0)
+        if(x==true)
         {
         	System.out.println("Card Name: "+cardname + "\n" + "Card number: "+cardnum +"\n" +"Expiry Date: "+exdate);
         }
