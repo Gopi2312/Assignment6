@@ -16,11 +16,14 @@ public class Main
         TestCard tc1 = (TestCard)tc.clo();
         
         Long valnum = 97889122l;
-        System.out.println(tc1.test(valnum));
         boolean x = tc1.test(valnum);
-        if(x==true)
+        if(x!=0)
         {
         	System.out.println("Card Name: "+cardname + "\n" + "Card number: "+cardnum +"\n" +"Expiry Date: "+exdate);
+        }
+        else
+        {
+            System.out.println("Invalid");
         }
     }
 
