@@ -13,7 +13,7 @@ public class Main
         String exdate = sc.next();
         
         TestCard tc = new TestCard(cardname,cardnum,exdate);
-        TestCard tc1 =  tc.clo();
+        TestCard tc1 = (TestCard) tc.clo();
         
         Long valnum = 97889122l;
         System.out.println(tc1.test(valnum));
