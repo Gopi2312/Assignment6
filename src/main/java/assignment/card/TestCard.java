@@ -1,5 +1,5 @@
 package assignment.card;
-public class TestCard implements Cloneable{
+public class TestCard implements cloneable{
 	Long cardnum;
 	String cardname;
 	String exdate;
