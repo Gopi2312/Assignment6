@@ -17,7 +17,7 @@ public class TestCard implements cloneable{
     	}
     	catch(CloneNotSupportedException e)
     	{
-    		System.out.println("Clowning error");
+    		log.info("Clowning error");
     		return this;
     	}
 	}
