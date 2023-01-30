@@ -1,8 +1,10 @@
 package assignment.card;
+import java.util.logging.*;
 public class TestCard implements cloneable{
 	Long cardnum;
 	String cardname;
 	String exdate;
+	Logger log = Logger.getLogger("hi");
 	TestCard(String cardname,Long cardnum,String exdate)
 	{
 		this.cardnum = cardnum;
