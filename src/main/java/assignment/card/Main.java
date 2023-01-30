@@ -15,7 +15,7 @@ public class Main
         String exdate = sc.next();
         
         TestCard tc = new TestCard(cardname,cardnum,exdate);
-        TestCard tc1 = (TestCard) tc.clo();
+        TestCard tc1 = tc.clo();
         
         Long valnum = 97889122l;
         log.info(tc1.test(valnum));
