@@ -20,9 +20,9 @@ public class Main
         Long valnum = 97889122l;
         log.info(tc1.test(valnum));
         boolean x = tc1.test(valnum);
-        if(x==true)
+        if(x==1)
         {
-        	System.out.println("Card Name: {} \n {} Card number: {} cardnum {}\n {} Expiry Date: {}" ,cardname,cardnum,exdate);
+        	System.out.println("Card Name: {} \n Card number: {} cardnum \n {} Expiry Date: {}" ,cardname,cardnum,exdate);
         }
         else
         {
