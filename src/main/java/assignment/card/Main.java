@@ -22,7 +22,7 @@ public class Main
         boolean x = tc1.test(valnum);
         if(x==1)
         {
-        	System.out.println("Card Name: {} \n Card number: {} cardnum \n {} Expiry Date: {}" ,cardname,cardnum,exdate);
+        	log.fine("Card Name: {} \n Card number: {} cardnum \n {} Expiry Date: {}" ,cardname,cardnum,exdate);
         }
         else
         {
