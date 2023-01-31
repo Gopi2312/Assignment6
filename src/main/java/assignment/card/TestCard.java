@@ -15,13 +15,12 @@ public class TestCard implements cloneable{
 	{
 		try{
     		return (TestCard)super.clone();
-    		
-    	}
-    	catch(CloneNotSupportedException e)
-    	{
-    		log.info("Clowning error");
-    		return this;
-    	}
+    		}
+		catch(CloneNotSupportedException e)
+		{
+			log.info("Clowning error");
+			return this;
+		}
 	}
 	boolean test(Long valnum)
 	{
