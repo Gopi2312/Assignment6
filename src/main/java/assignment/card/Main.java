@@ -18,17 +18,17 @@ public class Main
         TestCard tc1 = tc.clo();
         
         Long valnum = 97889122l;
-        log.info(tc1.test(valnum));
         boolean x = tc1.test(valnum);
-        if(x==1)
+        log.log(Level.INFO,() -> "" +x);
+        if(x)
         {
-        	log.fine("Card Name: {} \n Card number: {} cardnum \n {} Expiry Date: {}" ,cardname,cardnum,exdate);
+        	log.log(Level.INFO,() ->"Card Name:" +cardname);
+        	log.log(Level.INFO,() ->"Card number:" +cardnum);
+        	log.log(Level.INFO,() ->"Expiry Date:" +exdate);
         }
         else
         {
             log.info("invalid");
         }
     }
-
-
 }
